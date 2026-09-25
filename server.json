@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/numverify",
   "title": "Numverify",
   "description": "Numverify MCP — wraps the Numverify phone-number validation API (APILayer)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/numverify",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-numverify",
