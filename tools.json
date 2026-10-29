@@ -1,0 +1,43 @@
+[
+  {
+    "name": "numverify_validate",
+    "description": "Validate a phone number and look up its carrier, line type (mobile/landline), country, and location. Returns international/local formats too. Accepts E.164 (e.g. \"+14158586273\") or a local number with country_code. Example: numverify_validate({ number: \"14158586273\", _apiKey: \"your-key\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "number": {
+          "type": "string",
+          "description": "Phone number to validate. E.164 like \"+14158586273\" or \"14158586273\", or a local number when country_code is supplied, e.g. \"4158586273\"."
+        },
+        "country_code": {
+          "type": "string",
+          "description": "Optional ISO 3166-1 alpha-2 country code (e.g. \"US\", \"GB\") — required only when `number` is in local/national format rather than international."
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Numverify/APILayer API key. Free signup at https://numverify.com/product; key is on your APILayer dashboard."
+        }
+      },
+      "required": [
+        "number",
+        "_apiKey"
+      ]
+    }
+  },
+  {
+    "name": "numverify_countries",
+    "description": "List the countries supported by Numverify, with their ISO country code, name, and international dialing prefix. Example: numverify_countries({ _apiKey: \"your-key\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "_apiKey": {
+          "type": "string",
+          "description": "Numverify/APILayer API key. Free signup at https://numverify.com/product; key is on your APILayer dashboard."
+        }
+      },
+      "required": [
+        "_apiKey"
+      ]
+    }
+  }
+]
