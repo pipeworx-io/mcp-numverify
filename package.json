@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-numverify",
-  "version": "0.2.1",
-  "description": "Numverify MCP — wraps the Numverify phone-number validation API (APILayer)",
+  "version": "0.2.2",
+  "description": "Unofficial Numverify MCP — wraps the Numverify phone-number validation API (APILayer)",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "numverify",
     "gatewaySlug": "numverify",
-    "sourceHash": "v1-37cf197b40a3554d3d3d424f9a7281444924e59b629fca3d8a74f72250141548",
-    "sourceCommit": "bed7faa04e7276899b5e3870ef11c98625371f2b"
+    "sourceHash": "v1-7dfc9465458d87a85acfbae327ef14ab1251a7de73fbeebd1ce2cff028bd63a4",
+    "sourceCommit": "6e7ae693219a515a7ee6dd88d02390ab290fbad3"
   }
 }
